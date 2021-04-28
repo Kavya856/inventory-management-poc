@@ -22,7 +22,7 @@ function App() {
               component={CreateProductComponent}
             ></Route>
             <Route
-              path="/view-employee/:prodId"
+              path="/view-product/:prodId"
               component={ViewProductComponent}
             ></Route>
 

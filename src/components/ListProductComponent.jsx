@@ -10,6 +10,7 @@ export default class ListProductComponent extends Component {
     this.addProduct = this.addProduct.bind(this);
     this.editProduct = this.editProduct.bind(this);
     this.deleteProduct = this.deleteProduct.bind(this);
+    this.viewProduct = this.viewProduct.bind(this);
   }
 
   deleteProduct(prodId) {
@@ -47,6 +48,7 @@ export default class ListProductComponent extends Component {
             Add Product
           </button>
         </div>
+        <br />
         <div className="row">
           <table className="table table-striped table-bordered">
             <thead>
